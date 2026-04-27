@@ -9,22 +9,7 @@
     <link rel="stylesheet" href="css/global.css">
 </head>
 <body>
-    <nav>
-        <div class="row">
-            <div class="col-1 left"><img src="assets/logo.png" alt="" id="logo"></div>
-            <div class="col-2 center">
-                <ul id="menu">
-                    <li><a href="">Home</a></li>
-                    <li><a href="">Destination</a></li>
-                    <li><a href="">Package</a></li>
-                    <li><a href="">Blog</a></li>
-                    <li><a href="">About Us</a></li>
-                    <li><a href="">Contact</a></li>
-                </ul>
-            </div>
-            <div class="col-1 right"><p>✈️</p></div>
-        </div>
-    </nav>
+    <nav></nav>
     <header>@yield('header')</header>
     <main>@yield('main')</main>
     <footer>@yield('footer')</footer>
